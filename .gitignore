@@ -1,0 +1,42 @@
+# Carpetas comunes de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Archivos de configuración locales
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos (ajusta según tus carpetas)
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+
+# Modelos
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# IDEs / editores
+.vscode/
+.idea/
+*.code-workspace
